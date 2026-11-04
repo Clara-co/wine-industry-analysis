@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+# Too large for GitHub web upload (50 MB); see data/README.md
+data/raw/winemag-data_first150k.csv
