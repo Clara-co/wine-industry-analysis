@@ -1,0 +1,27 @@
+{
+  "cleaning": {
+    "raw_rows": 150930,
+    "duplicates_removed": 53079,
+    "rows_missing_price_or_country": 8723,
+    "rows_used": 89128
+  },
+  "top_producers": [
+    "Italy",
+    "Spain",
+    "France",
+    "Chile",
+    "Argentina"
+  ],
+  "priciest_countries_by_mean": [
+    "Hungary",
+    "France",
+    "Germany",
+    "Italy",
+    "Canada"
+  ],
+  "spearman_production_vs_price": 0.377,
+  "usa_white_share_first_last": {
+    "2000": 69.1,
+    "2021": 73.3
+  }
+}

@@ -1,0 +1,20 @@
+[project]
+name = "wine-analysis"
+version = "1.0.0"
+description = "Where wine is made and what it sells for: OIV production data joined with Wine Enthusiast prices"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "matplotlib>=3.7", "openpyxl>=3.1", "scipy>=1.10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
